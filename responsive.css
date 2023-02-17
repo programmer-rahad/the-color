@@ -1,0 +1,197 @@
+@media (max-width: 1199.98px) {
+  #about-us {
+    padding: 100px 0;
+    padding-top: 170px;
+  }
+  .common-content h2 {
+    font-size: 45px;
+  }
+  .common-content h4,
+  .common-content h3 {
+    font-size: 25px;
+  }
+  #welcome h2 {
+    font-size: 60px;
+  }
+  #welcome h4 {
+    font-size: 35px;
+  }
+  #about-us .about-left {
+    width: 40%;
+  }
+  #about-us .about-left i {
+    width: 390px;
+    font-size: 180px;
+    padding-top: 139px;
+  }
+  #about-us .about-right {
+    width: 60%;
+  }
+  #about-us .about-right .common-content {
+    margin-top: 115px;
+  }
+  #services .services .service {
+    width: calc(25% - 11.25px);
+  }
+  #services .services .service:not(:last-child) {
+    margin-right: 15px;
+  }
+  #sign-up .signup-left {
+    width: calc(50%);
+    text-align: center;
+  }
+  #sign-up .signup-right {
+    width: 50%;
+  }
+  #sign-up .signup-right i {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #sign-up .signup-left .common-content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #sign-up .signup-right i {
+    width: 390px;
+    font-size: 180px;
+    padding-top: 139px;
+  }
+}
+@media (max-width: 1050px) {
+  #about-us .about-right,
+  #about-us .about-left {
+    width: 100%;
+  }
+  #about-us .about-left i {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  #about-us .about-right {
+    text-align: center;
+  }
+  #about-us .about-right .common-content {
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 992px) {
+  header nav {
+    height: auto !important;
+  }
+}
+@media (max-width: 991.98px) {
+  header label[for='menu-icon'] {
+    display: block;
+  }
+  header nav {
+    width: calc(100% + 30px);
+    margin-top: -10px;
+    margin-left: 15px;
+    transform: translateX(15px);
+    height: 0;
+    overflow: hidden;
+    transition-duration: 0.5s;
+  }
+  header nav > span {
+    display: none;
+  }
+  header nav a {
+    display: block;
+    height: auto;
+    line-height: normal;
+    margin: 5px 0;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+    text-align: center;
+    transition-duration: 0.5s;
+    color: var(--violet);
+  }
+  header nav a:hover {
+    color: white;
+  }
+  header nav a:last-child {
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: var(--white);
+    border-bottom: 0;
+    margin-left: 50vw;
+    transform: translateX(-50%);
+  }
+  #services .services .service:nth-child(1),
+  #services .services .service:nth-child(2),
+  #services .services .service:nth-child(3),
+  #services .services .service:nth-child(4) {
+    width: calc(50% - 10px);
+    margin-right: 0;
+  }
+  #services .services .service:nth-child(1),
+  #services .services .service:nth-child(3) {
+    margin-right: 20px;
+  }
+  #services .services .service {
+    margin: 10px 0;
+  }
+  footer .copyright > p {
+      margin-left: 180px;
+  }
+}
+@media (max-width: 850px) {
+    #sign-up .signup-right,
+    #sign-up .signup-left {
+      width: 100%;
+    }
+    #sign-up .signup-left .common-content {
+        margin-top: 70px;
+    }
+    footer .copyright > p {
+        margin-left: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    footer .copyright > * {
+        width: 100%;
+        text-align: center;
+    }
+  }
+@media(max-width: 767.98px) {
+    footer .footer-top .footer-widget {
+        width: 50%;
+        min-height: 180px;
+    }
+}
+@media (max-width: 575.98px) {
+  a.gradient-btn {
+    font-size: 20px;
+    padding: 8px 25px 12px;
+  }
+  #welcome {
+    padding: 90px 0;
+    padding-top: 165px;
+  }
+  #welcome h2 {
+    font-size: 40px;
+  }
+  #welcome h4 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 479.98px) {
+  #about-us .about-left i {
+    max-width: 100%;
+  }
+  section#services .services div.service {
+    max-width: 320px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto !important;
+    width: 100% !important;
+  }
+  footer .footer-top .footer-widget {
+      width: 100%;
+      margin: 20px 0;
+      min-height: auto;
+  }
+}
